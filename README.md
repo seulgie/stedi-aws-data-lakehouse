@@ -1,10 +1,10 @@
 # STEDI Step Trainer Data Lakehouse Project
 
-## 📌 Project Overview
+## Project Overview
 This project builds a **Lakehouse solution** using **AWS Glue, S3, Athena, and PySpark** to process **STEDI Step Trainer** sensor data. The data is cleaned, transformed, and stored in different zones (**Landing, Trusted, and Curated**) for machine learning.
 
 
-## 🛠️ **Workflow**
+## **Workflow**
 1. **Landing Zone**: Raw data is stored in S3.
 2. **Trusted Zone**: Filtered customer and accelerometer data.
 3. **Curated Zone**: Final dataset for machine learning.
@@ -25,11 +25,11 @@ This project builds a **Lakehouse solution** using **AWS Glue, S3, Athena, and P
 | `accelerometer_landing.sql` | Creates `accelerometer_landing` table. |
 | `step_trainer_landing.sql` | Creates `step_trainer_landing` table. |
 
-## 🚀 **How to Run**
+## **How to Run**
 1. Upload raw JSON data to **S3**.
 2. Create AWS Glue tables using **SQL queries**.
 3. Execute **Glue Jobs** step by step.
-4. Verify row counts in **Athena**.
+4. Verify row counts in **Athena** (screenshot folder).
 
 ---
 
